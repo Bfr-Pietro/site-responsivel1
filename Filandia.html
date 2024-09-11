@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Melhores Países do Mundo</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+section{
+    background-color: #00796b;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+section>p{
+    width: 65vw;
+    color: #ffffff;
+    font-size: 26px;
+}
+body{
+    background-color: #00796b;
+}
+.faq-container {
+    background-color: #00796b;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.faq-item {
+    background-color: #0ab89b;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70vw;
+}
+
+.faq-question {
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    background-color: #0ab89b;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    color: #ffffff;
+    display: none;
+    padding: 10px;
+    background-color: #0ab89b;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.faq-item input[type="checkbox"] {
+    display: none;
+}
+
+.faq-item input[type="checkbox"]:checked ~ .faq-answer {
+    display: block;
+}
+header>h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+header>p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.containerpaises{
+    width: 80vw;
+    background-color: #004d40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.317) 10px 10px;
+    border-radius: 20px;
+    transition: .35s;
+}
+.containerpaises>h1{
+    font-size: 45px;
+    color: #ffffff;
+}
+.containerpaises>p{
+    width: 60vw;
+    color: #ffffff;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+}
+.containerpaises:hover{
+    transform: scale(1.02);
+}
+.faq-container:hover > :not(:hover){
+    transform: scale(0.99);
+    opacity: .5;
+}
+footer>div>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#footerlinks{
+    display: flex;
+    gap: 20px;
+}
+header{
+    display: flex;
+    background: linear-gradient(#003930,#003930,#00796b);
+    height: 23vw;
+}
+#headerbaixo{
+    display: flex;
+    width: 100vw;
+}
+#headerh1{
+    font-size: 45px;
+    width: 50vw;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 275px;
+}
+#headerimg{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 175px;
+}
+#headerimg>img{
+    height: 46vh;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="headerbaixo">
+            <div id="headerh1">
+                <h1>Os 10 Melhores Países do Mundo</h1>
+            </div>
+            <div id="headerimg">
+                <img src="assets/imgs/pngwing.com.png" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="faq-container">
+        <div class="containerpaises">
+            <h1>Austrália</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16346636-452-59a/FT1086A/421/Sydney.jpg" alt="">
+            <p>O país manteve a primeira posição na pesquisa da Organização para a Cooperação e Desenvolvimento Econômico (OCDE), que elege os países com maior qualidade de vida, seguindo 11 diferentes critérios que considera essenciais para uma vida feliz.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Austrália?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Austrália?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Suécia</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16346758-197-407/FT1086A/421/20140725100719-56364.jpg" alt="">
+            <p>O país ultrapassou a Noruega e alcançou o segundo lugar. Ele está no topo em qualidade do meio ambiente, equilíbrio entre trabalho e lazer, satisfação com a vida, saúde e educação.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Suécia?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Suécia?</label>
+                <div class="faq-answer">Possui uma população total de 10 523 709 de habitantes (2023)</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Noruega</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16346793-821-182/FT1086A/421/20140826110812-79598.jpg" alt="">
+            <p>País caiu da segunda para a terceira posição no ranking da OCDE. Para analisar quem está no topo, a organização depende de dados subjetivos, como satisfação com a vida e igualdade.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Noruega?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Noruega?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Suiça</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16346855-568-100/FT1086A/421/20141008121043-39696.jpg" alt="">
+            <p>A Suíça está em quarto no ranking geral, mas está perto do topo no que diz respeito a empregs, saúde e satisfação com a vida. É o país com a segunda maior renda por domicílio, de acordo com o índice. Só fica atrás dos Estados Unidos.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Suiça?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Suiça?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Dinamarca</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16346908-3d4-93e/FT1086A/421/2012011662767.jpg" alt="">
+            <p>O país em quinto lugar na lista detém o recorde de equilíbrio entre trabalho e lazer e felicidade em geral. Os dinamarqueses também estão mais satisfeitos com a própria vida que a média dos países analisados.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Dinamarca?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Dinamarca?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Canadá</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16347008-608-48a/FT1086A/421/20150603-183625.jpg" alt="">
+            <p>Os pesquisadores da OCDE utilizam ferramentas interativas para analisar a qualidade de vida, diz matéria da CNN Money que publicou a pesquisa. Pelas métricas, o Canadá está em sexto, com notas acima da média em todos os quesitos.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB do Canadá?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem no Canadá?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Estados Unidos</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16347240-756-ee1/FT1086A/421/20150529144401716ap.jpg" alt="">
+            <p>No ranking da OCDE, os Estados Unidos estão no topo em renda e moradia, mas é apenas mediano em educação, meio ambiente, segurança e equilíbro entre trabalho e lazer. No total, acaba ficando em sétimo.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB dos Estados Unidos?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem nos Estados Unidos?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Nova Zelândia</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16347328-8e4-54b/FT1086A/421/2013121246239.jpg" alt="">
+            <p>Os moradores da Nova Zelândia são os mais saudáveis do mundo desenvolvido, com 90% dos entrevistados afirmando estar em boas condições de saúde. No país, que ficou em oitavo, as pessoas vivem em média até os 82 anos.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Nova Zelândia?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Nova Zelândia?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Islândia</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16347384-049-8c9/FT1086A/421/2013010216488.jpg" alt="">
+            <p>Em nona posição na pesquisa, a Islândia conta com baixa taxa de desemprego, bom nível de renda e trabalhadores com estabilidade no emprego.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Islândia?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Islândia?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+        <div class="containerpaises">
+            <h1>Filândia</h1>
+            <img src="https://ogimg.infoglobo.com.br/in/16347614-722-ee6/FT1086A/421/20150603-190828.jpg" alt="">
+            <p>O país está em décimo lugar, mas ocupa o topo do ranking no que diz respeito a educação da população, um indicador que está entre os mais valorizados pela OCDE.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-question">Qual o PIB da Filândia?</label>
+                <div class="faq-answer">Produto Interno Bruto (PIB): US$ 1,61 trilhão (FMI, 2021). PIB per capita: US$ 62.620 (FMI, 2021).</div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-question">Quantas pessoas vivem na Filândia?</label>
+                <div class="faq-answer">A população da Austrália, em 2024, era estimada em 26 997 958 pessoas. O país é o 51º mais populoso do mundo e o mais populoso da Oceania.</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Copyright © Pietro Nunes</h2>
+        <div id="footerlinks">
+            <a href="https://www.instagram.com/bfr_pietro/"><img src="assets/imgs/icons8-instagram-50.png" alt=""></a>
+            <a href="https://www.facebook.com/pietro.nunes.96199344/"><img src="assets/imgs/icons8-facebook-novo-50.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?phone=5515997672075&text=Salve%20Cuz%C3%A3o!"><img src="assets/imgs/icons8-whatsapp-50.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>
